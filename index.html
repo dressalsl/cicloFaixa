@@ -22,6 +22,61 @@
             <div class = "header_main"></div>
                 <img class="foto_ciclo_faixa" src="../ciclofaixa/fotos/652789-POZCTN-740.jpg" alt="Foto - Ciclo Faixa">
         </header>
+        <main class="main">
+            <div class="cadastro">
+                <h1 class="cadastrar">Cadastrar</h1>
+                <div class="campo">
+                        <form action="/pagina-processa-dados-do-form" method="post">
+                            <div>
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" />
+                            </div>
+                            <div>
+                                <label for="extensao">Extensão:</label>
+                                <input type="number" id="extensao" />
+                            </div>
+                            <div>
+                                <div class="possuicf">
+                                        <p>Possui ciclo faixa:</p>
+                                        <div>
+                                            <input type="checkbox" id="sim" name="sim"
+                                                    checked>
+                                            <label for="sim">Sim</label>
+                                        
+                                            <input type="checkbox" id="nao" name="nao">
+                                            <label for="nao">Não</label>
+                                        </div>
+                                </div>      
+                                <div>
+                                    <label for="casotenha">Extensão da ciclo faixa (caso tenha):</label>
+                                    <input type="number" id="casotenha" />
+                                </div>
+                                <div class="botao_cadastro">
+                                        <button name="button">Pesquisar</button>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+            <div class="pesquisa">
+                    <h1 class="pesquisar">Pesquisar</h1>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" />
+                    </div>
+                    <p>Possui ciclo faixa:</p>
+                        <div>
+                            <input type="checkbox" id="sim" name="sim" checked>
+                            <label for="sim">Sim</label>
+                            <input type="checkbox" id="nao" name="nao">
+                            <label for="nao">Não</label>
+                        </div>
+                    <button name="button">Pesquisar</button>
+
+            </div>
+            
+        </main>
+
     </div>
 
     
