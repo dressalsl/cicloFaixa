@@ -1,9 +1,12 @@
 var Sequelize = require('sequelize'); 
 
-var connection = new Sequelize('crud','root',''); 
 
-var conexao = connection.authenticate()
 
+const conexao = connection.authenticate()
+
+var sequelize = new Sequelize('http://localhost/phpmyadmin/tbl_structure.php?db=node&table=crud', {
+    
+})
 .then(function(){
     console.log('conexão com sevidor!');
 })
@@ -18,9 +21,3 @@ var conexao = connection.authenticate()
  
 .done(); 
 
-/*
-var http = require('http'); 
-http.createServer().listen (8081); 
-console.log("o servidor esta rodando!")
-
-*/
