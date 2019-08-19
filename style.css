@@ -53,8 +53,21 @@ html, body{
 
 input {
     outline: none;
-  }
+}
+.foto_ciclo_faixa{
+    display:flow-root;
+    display: flex;
+    flex-direction: column;
+}
    
+.pesquisar{
+    text-align: center;
+    margin-top: 15px;
+}
+.cadastrar{
+    text-align: center;
+    margin-top: 15px;
+}
   /*estilo dos input,  menos o checkbox */
   input:not([type="checkbox"]){
     width: 95%;
@@ -134,4 +147,24 @@ input {
  .cadastro{
     background-color: rgba(229, 229, 229, 0.71);
     display:flow-root;
+}
+.pesquisar{
+    align-items: center;
+}
+.pesquisa{
+    background-color: C4C4C4;
+}
+/* FOOTER */
+.icon_footer{
+    background-color: EA3836;
+    width: 100%;
+    align-items: center;
+}
+.icon_instagram{
+    padding: 0px 80px 0px 80px;   
+    margin: 15px 0px 15px 0px;            
+}
+.icon_twitter{
+    padding: 0px 80px 0px 80px;     
+    margin: 15px 0px 15px 0px;          
 }
